@@ -1,0 +1,41 @@
+{
+  "name": "church-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Spangles WebX",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.15.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "bson": "^7.2.0",
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.7",
+    "moment": "^2.30.1",
+    "mongoose": "^8.5.0",
+    "multer": "^2.0.0",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^7.0.6",
+    "pdf-to-printer": "^5.7.0",
+    "pdfkit": "^0.18.0",
+    "protobufjs": "^8.0.0",
+    "puppeteer": "^19.11.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
